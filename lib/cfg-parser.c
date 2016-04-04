@@ -49,10 +49,12 @@ int main_parse(CfgLexer *lexer, gpointer *dummy, gpointer arg);
 static CfgLexerKeyword main_keywords[] = {
   /* statements */
   { "source",             KW_SOURCE },
+  {"sourceAmey",KW_SOURCE},
   { "filter",             KW_FILTER },
   { "parser",             KW_PARSER },
   { "rewrite",            KW_REWRITE },
   { "destination",        KW_DESTINATION },
+  { "desAmey",KW_DESTINATION}, //Added by me for creating my own simple destination.
   { "log",                KW_LOG },
   { "junction",           KW_JUNCTION },
   { "channel",            KW_CHANNEL },

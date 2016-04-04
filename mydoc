@@ -1,0 +1,44 @@
+* This comment documents how the work performed by syslog-ng is
+ * partitioned between threads. First of all it is useful to know that
+ * the configuration is translated to a tree of LogPipe instances, as
+ * described in a comment in logpipe.h.
+ *
+ * The basic assumptions for threading:
+ *   - configuration file is parsed in the main thread
+ *   - the log pipe tree is built in the main thread
+ *   - processing of messages is stalled while the
+ *     configuration is reloaded
+ *   - the _queue() operation for LogPipe instances can happen in
+ *     multiple threads
+ *   - notifications accross LogPipe instances happen in the main thread
+ *
+ * This boils down to:
+ * ===================
+ *   - If not otherwise specified LogPipe derived classes can only be
+ *     instantiated (e.g. new()) or initialized/deinitialized (_init/deinit)
+ *     in the main thread. Exceptions to this rule are documented below.
+ *   - All queue operations finish before either deinit is called.
+ *   - Locking is only needed between multiple invocations of _queue()
+ *     in parallel threads, and any other main thread activity.
+ *
+ * Threading model
+ * ===============
+ *   - the main thread manages the configuration and polls for I/O
+ *     using epoll
+ *   - whenever an I/O event happens, work may be delegated to worker
+ *     threads. Currently only the LogReader/LogWriter classes make use
+ *     of worker threads, everything else remains in the main thread
+ *     (internal messages, incoming connections, etc).
+ *   - _all_ I/O polling must be registered in the main thread (update_watches
+ *     and friends)
+ *
+ */
+
+/* parsed command line arguments */
+
+/* NOTE: these should not be here, rather they should be either processed by
+ * the main module and then passed as parameters or propagated to a place
+ * closer to their usage.  The simple reason they are here, is that mainloop
+ * needed them and it implements the command line options to parse them.
+ * This is far from perfect. (Bazsi) */
+

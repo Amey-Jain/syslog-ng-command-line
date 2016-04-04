@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.syslog_ng.test.TestStringOption" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-03-30T12:44:11" hostname="amey-desktop" time="0.005">
+  <properties/>
+  <testcase name="testExisting" classname="org.syslog_ng.test.TestStringOption" time="0.0"/>
+  <testcase name="testWithInValidStringList" classname="org.syslog_ng.test.TestStringOption" time="0.001"/>
+  <testcase name="testWithValidStringList" classname="org.syslog_ng.test.TestStringOption" time="0.0"/>
+  <testcase name="testExistingWithDefaultValue" classname="org.syslog_ng.test.TestStringOption" time="0.001"/>
+  <testcase name="testNonExistingWithDefaultValue" classname="org.syslog_ng.test.TestStringOption" time="0.0"/>
+  <testcase name="testWithInValidInteger" classname="org.syslog_ng.test.TestStringOption" time="0.001"/>
+  <testcase name="testNonExisting" classname="org.syslog_ng.test.TestStringOption" time="0.0"/>
+  <testcase name="testWithValidInteger" classname="org.syslog_ng.test.TestStringOption" time="0.001"/>
+  <testcase name="testWithSingleValidStringList" classname="org.syslog_ng.test.TestStringOption" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

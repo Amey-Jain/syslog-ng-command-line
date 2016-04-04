@@ -1,0 +1,20 @@
+[2016-04-04T04:09:36.883963] Plugin module not found in 'module-path';
+      $DATE                                                                                      speed:  3824091.778 msg/sec
+      <$PRI>$DATE $HOST $MSGHDR$MSG                                                              speed:  1759014.952 msg/sec
+      $DATE                                                                                      speed:  3680529.996 msg/sec
+      $DATE $HOST                                                                                speed:  3237293.623 msg/sec
+      $DATE $HOST $MSGHDR                                                                        speed:  3072196.621 msg/sec
+      $DATE $HOST $MSGHDR$MSG                                                                    speed:  2819283.902 msg/sec
+      $DATE $HOST $MSGHDR$MSG value                                                              speed:  2752546.105 msg/sec
+      $DATE $HOST $MSGHDR$MSG ${APP.VALUE}                                                       speed:  2444987.775 msg/sec
+      $MSG                                                                                       speed: 14347202.296 msg/sec
+      $TAGS                                                                                      speed:  2181500.873 msg/sec
+      $(echo $MSG)                                                                               speed: 29069767.442 msg/sec
+      $(+ $FACILITY $FACILITY)                                                                   speed: 27855153.203 msg/sec
+      $DATE $FACILITY.$PRIORITY $HOST $MSGHDR$MSG $SEQNO                                         speed:  1931247.586 msg/sec
+      ${APP.VALUE} ${APP.VALUE2}                                                                 speed:  8347245.409 msg/sec
+      <$PRI>$DATE $HOST $MSGHDR$MSG                                                              speed:  2053809.817 msg/sec
+      ${SDATA}                                                                                   speed:  2212389.381 msg/sec
+      $DATE $HOST $PROGRAM $PID $MSGID $SDATA $MSG                                               speed:  1120197.155 msg/sec
+      $DATE $HOST $PROGRAM $PID $MSGID $MSG                                                      speed:  2326663.564 msg/sec
+      $DATE ${HOST:--} ${PROGRAM:--} ${PID:--} ${MSGID:--} ${SDATA:--} $MSG                      speed:  1120071.685 msg/sec

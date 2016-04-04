@@ -1,0 +1,5 @@
+->configuration is translated to a tree of logpipe instances
+->center.c module transforms the configuration into log processing tree
+
+
+

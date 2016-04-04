@@ -139,6 +139,7 @@ version(void)
   printf("Module-Directory: %s\n", get_installation_path_for(SYSLOG_NG_PATH_MODULEDIR));
   printf("Module-Path: %s\n", resolvedConfigurablePaths.initial_module_path);
   printf("Available-Modules: ");
+  printf("Hi Amey. Feeling good?");
   plugin_list_modules(stdout, FALSE);
 
   printf("Enable-Debug: %s\n"
@@ -194,7 +195,7 @@ main(int argc, char *argv[])
 
   z_mem_trace_init("syslog-ng.trace");
 
-  g_process_set_argv_space(argc, (gchar **) argv);
+  g_process_set_argv_space(argc, (gchar **) argv);///THis is the line
 
   setup_caps();
 
@@ -219,7 +220,7 @@ main(int argc, char *argv[])
     }
 
   if (display_version)
-    {
+    { printf("Hi AMEY. FEELING GOOD?!!");
       interactive_mode();
       version();
       return 0;

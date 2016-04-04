@@ -1,0 +1,2 @@
+[2016-04-04T07:39:41.347915] Input is valid utf8, but the log message is not tagged as such, this performs worse than enabling validate-utf8 flag on input; value='\xc3\xa1rv\xc3\xadzt\xc5\xb1r\xc5\x91t\xc3\xbck\xc3\xb6rf\xc3\xbar\xc3\xb3g\xc3\xa9p'
+[2016-04-04T07:39:41.348010] Input is not valid utf8, glob match requires utf8 input, thus it never matches in this case; value='\xe1rv\xedzt\xfbr\xf5t\xfck\xf6rf\xfar\xf3g\xe9p'

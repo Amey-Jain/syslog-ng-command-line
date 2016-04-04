@@ -1,0 +1,34 @@
+Start testcase_with_threads
+starting testrun: 0
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 1
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 2
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 3
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 4
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 5
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 6
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 7
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 8
+starting feed thread 0
+waiting for feed thread 0
+starting testrun: 9
+starting feed thread 0
+waiting for feed thread 0
+Feed speed: 3606159.32
+Start testcase_zero_diskbuf_alternating_send_acks
+Start testcase_zero_diskbuf_and_normal_acks

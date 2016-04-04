@@ -1,0 +1,5 @@
+[2016-04-04T07:39:45.966869] Error reading serialized data; error='Error reading file (short read)'
+[2016-04-04T07:39:45.966908] Persistent configuration file is in invalid format, ignoring;
+[2016-04-04T07:39:45.966992] Error reading serialized data; error='Error reading file (short read)'
+[2016-04-04T07:39:45.966999] Persistent configuration file is in invalid format, ignoring;
+[2016-04-04T07:39:45.967096] Failed to open persist file!; filename='test_invalid_magic.persist', error='No such file or directory'

@@ -1,0 +1,8 @@
+Error parsing rewrite expression, error compiling replacement, error=Invalid macro, '}' is missing, error_pos='6' in <string> at line 1, column 26:
+
+rewrite s_test{ groupset("${alma"
+                         ^^^^^^^^
+
+syslog-ng documentation: http://www.balabit.com/support/documentation/?product=syslog-ng
+mailing list: https://lists.balabit.hu/mailman/listinfo/syslog-ng
+Error parsing expression

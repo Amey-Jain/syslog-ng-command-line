@@ -1,0 +1,15 @@
+[2016-04-04T07:39:38.517263] Missing ESTRING parser parameters; type='ESTRING'
+[2016-04-04T07:39:38.517345] Missing QSTRING parser parameters; type='QSTRING'
+[2016-04-04T07:39:38.517357] Missing ESTRING parser parameters; type='ESTRING'
+[2016-04-04T07:39:38.517363] Missing QSTRING parser parameters; type='QSTRING'
+[2016-04-04T07:39:38.517374] Missing SET parser parameters; type='SET'
+[2016-04-04T07:39:38.517380] Missing SET parser parameters; type='SET'
+[2016-04-04T07:39:38.517388] Missing regular expression as 3rd argument; type='PCRE'
+We excpect an error message
+We excpect an error message
+We excpect an error message
+We excpect an error message
+We excpect an error message
+We excpect an error message
+We excpect an error message
+We excpect an error message

@@ -1,0 +1,148 @@
+      1 Copyright (c) 2005-2011 Balázs Scheidler
+      1 Copyright (c) 2005-2015 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2007-2009 Balabit
+      1 Copyright (c) 2007-2013 Balabit
+      1 Copyright (c) 2007-2013 Balázs Scheidler
+      1 Copyright (c) 2007-2014 Balabit
+      1 Copyright (c) 2007-2014 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2008-2013 Balabit
+      1 Copyright (c) 2008 Balabit
+      1 Copyright (c) 2009-2014 Balázs Scheidler
+      1 Copyright (c) 2009-2014 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2009-2014 Viktor Juhasz
+      1 Copyright (c) 2010-2011 Balabit
+      1 Copyright (c) 2010-2011 Balázs Scheidler
+      1 Copyright (c) 2010-2012 Gergely Nagy <algernon@balabit.hu>
+      1 Copyright (c) 2010-2013 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2010-2013 Gergely Nagy <algernon@balabit.hu>
+      1 Copyright (c) 2010-2014 Balázs Scheidler
+      1 Copyright (c) 2010-2014 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2010, 2015 Balabit
+      1 Copyright (c) 2010-2015 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2010, 2015 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2010 Balázs Scheidler
+      1 Copyright (c) 2011 Balint Kovacs <blint@balabit.hu>
+      1 Copyright (c) 2012-2013 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2012-2013 Viktor Juhasz
+      1 Copyright (c) 2012, 2014 Balabit
+      1 Copyright (c) 2012, 2014 Gergely Nagy <algernon@balabit.hu>
+      1 Copyright (c) 2012-2014 Viktor Juhasz <viktor.juhasz@balabit.com>
+      1 Copyright (c) 2012-2015 Balázs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2012 Peter Gyongyosi <gyp@balabit.hu>
+      1 Copyright (c) 2013-2014 Gergely Nagy
+      1 Copyright (c) 2013-2015 Balabit
+      1 Copyright (c) 2013, 2015 Gergely Nagy
+      1 Copyright (c) 2013 Laszlo Budai
+      1 Copyright (c) 2013 Márton Illés <marci@balabit.com>
+      1 Copyright (c) 2013 Viktor Juhasz <viktor.juhasz@balabit.com>
+      1 Copyright (c) 2014-2015 Balazs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2014 Balázs Scheidler
+      1 Copyright (c) 2014 Balazs Scheidler <balazs.scheidler@balabit.com>
+      1 Copyright (c) 2014 Balázs Scheidler <bazsi@balabit.hu>
+      1 Copyright (c) 2014 Gergely Nagy <algernon@madhouse-project.org>
+      1 Copyright (c) 2014 Tibor Benke
+      1 Copyright (c) 2014 Viktor Tusa <tusavik@gmail.com>
+      1 Copyright (c) 2015 Balazs Scheidler
+      1 Copyright (c) 2015 Balázs Scheidler <bazsi@balabit.hu>
+      1 Copyright (c) 2015 Fabien Wernli
+      2 Copyright (c) 2005-2015 Balabit
+      2 Copyright (c) 2007-2015 Balabit
+      2 Copyright (c) 2007-2015 Balázs Scheidler
+      2 Copyright (c) 2008-2015 Balabit
+      2 Copyright (c) 2008-2015 Balázs Scheidler <balazs.scheidler@balabit.com>
+      2 Copyright (c) 2009-2011 Péter Gyöngyösi
+      2 Copyright (c) 2010-2012 Balázs Scheidler
+      2 Copyright (c) 2010-2013 Balázs Scheidler
+      2 Copyright (c) 2010-2015 Balázs Scheidler
+      2 Copyright (c) 2011-2015 Balázs Scheidler
+      2 Copyright (c) 2012-2013 Gergely Nagy <algernon@balabit.hu>
+      2 Copyright (c) 2012 Balazs Scheidler <bazsi@balabit.hu>
+      2 Copyright (c) 2013, 2014, 2015 Balabit
+      2 Copyright (c) 2013-2014 Balázs Scheidler <balazs.scheidler@balabit.com>
+      2 Copyright (c) 2013-2014 Tibor Benke
+      2 Copyright (c) 2013 Balázs Scheidler <balazs.scheidler@balabit.com>
+      2 Copyright (c) 2013 Balazs Scheidler <bazsi@balabit.hu>
+      2 Copyright (c) 2013 Balázs Scheidler <bazsi@balabit.hu>
+      2 Copyright (c) 2013 Juhász Viktor <jviktor@balabit.hu>
+      2 Copyright (c) 2015 Balázs Scheidler <balazs.scheidler@balabit.com>
+      2 Copyright (c) 2016 Laszlo Budai
+      3 Copyright (c) 2008-2014 Balabit
+      3 Copyright (c) 2009-2013 Balabit
+      3 Copyright (c) 2009-2013 Balázs Scheidler
+      3 Copyright (c) 2009-2014 Balabit
+      3 Copyright (c) 2010-2013 Balabit
+      3 Copyright (c) 2010-2014 Gergely Nagy <algernon@balabit.hu>
+      3 Copyright (c) 2010 Balabit
+      3 Copyright (c) 2012-2015 Balabit
+      3 Copyright (c) 2012-2015 Viktor Juhasz <viktor.juhasz@balabit.com>
+      3 Copyright (c) 2012 Peter Gyorko
+      3 Copyright (c) 2013, 2014, 2015 Gergely Nagy
+      3 Copyright (c) 2013 Balázs Scheidler
+      3 Copyright (c) 2014 Gergely Nagy
+      3 Copyright (c) 2014 Viktor Juhász <viktor.juhasz@balabit.com>
+      3 Copyright (c) 2014 Zoltan Fried
+      3 Copyright (c) 2016 Balabit
+      4 Copyright (c) 2009 Marton Illes
+      4 Copyright (c) 2012-2013 Viktor Tusa
+      4 Copyright (c) 2014 Balazs Scheidler <bazsi@balabit.hu>
+      4 Copyright (c) 2014 Viktor Tusa
+      5 Copyright (c) 2010-2015 Viktor Juhasz <viktor.juhasz@balabit.com>
+      5 Copyright (c) 2012-2014 Gergely Nagy <algernon@balabit.hu>
+      5 Copyright (c) 2013, 2014 Gergely Nagy <algernon@balabit.hu>
+      5 Copyright (c) 2013 Tihamer Petrovics <tihameri@gmail.com>
+      5 Copyright (c) 2014 Viktor Tusa <tusa@balabit.hu>
+      5 Copyright (c) 2015 Tibor Benke
+      6 Copyright (c) 2010-2012 Balabit
+      6 Copyright (c) 2011-2013 Balabit
+      6 Copyright (c) 2011-2013 Gergely Nagy <algernon@balabit.hu>
+      6 Copyright (c) 2011-2014 Balabit
+      6 Copyright (c) 2012-2014 Balabit
+      6 Copyright (c) 2013-2014 Balabit
+      6 Copyright (c) 2013, 2014 Balabit
+      6 Copyright (c) 2014-2015 Balabit
+      6 Copyright (c) 2014 Viktor Tusa <viktor.tusa@balabit.com>
+      6 Copyright (c) 2015 Gergely Nagy
+      7 Copyright (c) 2011-2015 Balabit
+      7 Copyright (c) 2012-2013 Balázs Scheidler
+      7 Copyright (c) 2015 BalaBit
+      7 Copyright (c) 2015 Vincent Bernat <Vincent.Bernat@exoscale.ch>
+      8 Copyright (c) 2011-2012 Balabit
+      8 Copyright (c) 2011-2012 Gergely Nagy <algernon@balabit.hu>
+      8 Copyright (c) 2013 Viktor Tusa <tusa@balabit.hu>
+      8 Copyright (c) 2014 Viktor Juhasz <viktor.juhasz@balabit.com>
+      9 Copyright (c) 1998-2015 Balázs Scheidler
+      9 Copyright (c) 2012 Gergely Nagy <algernon@balabit.hu>
+      9 Copyright (c) 2013 Gergely Nagy <algernon@balabit.hu>
+     10 Copyright (c) 2012 Nagy, Attila <bra@fsn.hu>
+     11 Copyright (c) 2011-2014 Gergely Nagy <algernon@balabit.hu>
+     11 Copyright (c) 2012-2013 Balabit
+     11 Copyright (c) 2013 Viktor Juhasz
+     11 Copyright (c) 2013 Viktor Tusa
+     11 Copyright (c) 2014 Gergely Nagy <algernon@balabit.hu>
+     12 Copyright (c) 2014 Laszlo Budai
+     12 Copyright (c) 2015 Balázs Scheidler
+     13 Copyright (c) 1998-2014 Balázs Scheidler
+     13 Copyright (c) 2015 Viktor Juhasz <viktor.juhasz@balabit.com>
+     14 Copyright (c) 2010-2015 Balabit
+     16 Copyright (c) 2012 Balázs Scheidler
+     18 Copyright (c) 2010-2014 Viktor Juhasz <viktor.juhasz@balabit.com>
+     20 Copyright (c) 2015 Balazs Scheidler <balazs.scheidler@balabit.com>
+     21 Copyright (c) 2010-2014 Balabit
+     22 Copyright (c) 1998-2013, 2015 Balázs Scheidler
+     22 Copyright (c) 2002-2010 Balabit
+     22 Copyright (c) 2002-2013, 2015 Balabit
+     23 Copyright (c) 1998-2010 Balázs Scheidler
+     23 Copyright (c) 2002-2015 Balabit
+     23 Copyright (c) 2002-2016 Balabit
+     23 Copyright (c) 2016 Viktor Juhasz <viktor.juhasz@balabit.com>
+     24 Copyright (c) 2013 Balabit
+     25 Copyright (c) 2012 Balabit
+     34 Copyright (c) 2002-2014 Balabit
+     37 Copyright (c) 2002-2011 Balabit
+     42 Copyright (c) 1998-2011 Balázs Scheidler
+     51 Copyright (c) 2014 Balabit
+     70 Copyright (c) 2015 Balabit
+    106 Copyright (c) 1998-2013 Balázs Scheidler
+    126 Copyright (c) 2002-2012 Balabit
+    149 Copyright (c) 1998-2012 Balázs Scheidler
+    157 Copyright (c) 2002-2013 Balabit

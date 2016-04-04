@@ -1,0 +1,3 @@
+[2016-04-04T07:39:38.566984] Unparsable JSON stream encountered; input='not-valid-json', error='null expected'
+[2016-04-04T07:39:38.567355] Error extracting JSON members into LogMessage as the top-level JSON object is not an object; input='[1, 2, 3]'
+[2016-04-04T07:39:38.567369] Unparsable JSON stream encountered; input='', error='continue'

@@ -1,0 +1,18 @@
+error: missing license lib/me.h (nonstandard license declaration?)
+info: lib/me.h path expects LGPLv2.1+_SSL
+warning: compatible modules/basicfuncs/tf-template.c expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/diskq/diskq-grammar.ym expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-config.c expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-debugger.c expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-debugger.h expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-helpers.c expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-helpers.h expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-logmsg.c expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-logmsg.h expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-main.c expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-module.h expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-tf.c expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+warning: compatible modules/python/python-value-pairs.c expected:GPLv2+_SSL detected:LGPLv2.1+_SSL
+error: missing license mywork/simpleDes.c (nonstandard license declaration?)
+error: unmatched path mywork/simpleDes.c (add to ./tests/copyright/policy)
+3

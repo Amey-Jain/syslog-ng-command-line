@@ -1,3 +1,4 @@
+
 SUBDIRS			=
 AM_MAKEFLAGS		= --no-print-directory
 AM_YFLAGS		= -Wno-yacc -Wno-other

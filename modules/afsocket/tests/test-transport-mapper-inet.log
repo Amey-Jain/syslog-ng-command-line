@@ -1,0 +1,7 @@
+[2016-04-04T07:39:37.459912] tls() options specified for a transport that doesn't allow TLS encryption; transport='udp'
+[2016-04-04T07:39:37.459987] tls() options specified for a transport that doesn't allow TLS encryption; transport='udp'
+[2016-04-04T07:39:37.460002] transport(tls) was specified, but tls() options missing;
+[2016-04-04T07:39:37.460016] tls() options specified for a transport that doesn't allow TLS encryption; transport='udp'
+[2016-04-04T07:39:37.460026] transport(tls) was specified, but tls() options missing;
+[2016-04-04T07:39:37.460085] Error creating socket; error='Address family not supported by protocol (97)'
+[2016-04-04T07:39:37.460108] Error creating socket; error='Protocol not supported (93)'

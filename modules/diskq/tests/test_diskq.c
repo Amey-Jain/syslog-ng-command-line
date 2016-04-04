@@ -21,7 +21,7 @@
  *
  */
 
-#include "logqueue.h"
+//#include "logqueue.h"
 #include "logqueue-fifo.h"
 #include "logqueue-disk.h"
 #include "logqueue-disk-reliable.h"

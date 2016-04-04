@@ -1,0 +1,6 @@
+One error message about too many values is to be expected
+[2016-04-04T07:39:41.149183] Hard wired limit of 65535 name-value pairs have been reached, all further name-value pair will expand to nothing; value='too-many-values'
+Testing direct values, name: VAL1, handle: 1
+Testing direct values, name: VAL17, handle: 17
+Testing indirect values, name: VAL18, handle: 18
+Testing other cases, name: VAL18, handle: 18

@@ -1,0 +1,18 @@
+[2016-04-04T02:09:45.845644] Failed to open the time zone file; filename='/usr/share/zoneinfo/Asia/Riyadh87', message='Failed to open file \'/usr/share/zoneinfo/Asia/Riyadh87\': open() failed: No such file or directory'
+[2016-04-04T02:09:45.845683] Bogus timezone spec, must be in the format [+-]HH:MM, offset must be less than 24:00; value='Asia/Riyadh87'
+[2016-04-04T02:09:45.845920] Failed to open the time zone file; filename='/usr/share/zoneinfo/Asia/Riyadh88', message='Failed to open file \'/usr/share/zoneinfo/Asia/Riyadh88\': open() failed: No such file or directory'
+[2016-04-04T02:09:45.845930] Bogus timezone spec, must be in the format [+-]HH:MM, offset must be less than 24:00; value='Asia/Riyadh88'
+[2016-04-04T02:09:45.848478] Failed to open the time zone file; filename='/usr/share/zoneinfo/Asia/Riyadh89', message='Failed to open file \'/usr/share/zoneinfo/Asia/Riyadh89\': open() failed: No such file or directory'
+[2016-04-04T02:09:45.848489] Bogus timezone spec, must be in the format [+-]HH:MM, offset must be less than 24:00; value='Asia/Riyadh89'
+[2016-04-04T02:09:45.908909] Failed to open the time zone file; filename='/usr/share/zoneinfo/Mideast/Riyadh87', message='Failed to open file \'/usr/share/zoneinfo/Mideast/Riyadh87\': open() failed: No such file or directory'
+[2016-04-04T02:09:45.908924] Bogus timezone spec, must be in the format [+-]HH:MM, offset must be less than 24:00; value='Mideast/Riyadh87'
+[2016-04-04T02:09:45.908948] Failed to open the time zone file; filename='/usr/share/zoneinfo/Mideast/Riyadh88', message='Failed to open file \'/usr/share/zoneinfo/Mideast/Riyadh88\': open() failed: No such file or directory'
+[2016-04-04T02:09:45.908955] Bogus timezone spec, must be in the format [+-]HH:MM, offset must be less than 24:00; value='Mideast/Riyadh88'
+[2016-04-04T02:09:45.908974] Failed to open the time zone file; filename='/usr/share/zoneinfo/Mideast/Riyadh89', message='Failed to open file \'/usr/share/zoneinfo/Mideast/Riyadh89\': open() failed: No such file or directory'
+[2016-04-04T02:09:45.908980] Bogus timezone spec, must be in the format [+-]HH:MM, offset must be less than 24:00; value='Mideast/Riyadh89'
+SKIP: Asia/Riyadh87
+SKIP: Asia/Riyadh88
+SKIP: Asia/Riyadh89
+SKIP: Mideast/Riyadh87
+SKIP: Mideast/Riyadh88
+SKIP: Mideast/Riyadh89

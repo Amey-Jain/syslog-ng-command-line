@@ -33,6 +33,7 @@
 
 #include <string.h>
 
+#define prn() printf("%s",__FILE__)
 gboolean accurate_nanosleep = FALSE;
 
 void
@@ -46,7 +47,7 @@ static inline void
 _flow_control_window_size_adjust(LogSource *self, guint32 window_size_increment)
 {
   guint32 old_window_size;
-
+  prn();
   window_size_increment += g_atomic_counter_get(&self->suspended_window_size);
   old_window_size = g_atomic_counter_exchange_and_add(&self->window_size, window_size_increment);
   g_atomic_counter_set(&self->suspended_window_size, 0);
@@ -62,7 +63,7 @@ _flow_control_rate_adjust(LogSource *self)
   /* NOTE: this is racy. msg_ack may be executing in different writer
    * threads. I don't want to lock, all we need is an approximate value of
    * the ACK rate of the last couple of seconds.  */
-
+  prn();
 #ifdef SYSLOG_NG_HAVE_CLOCK_GETTIME
   if (accurate_nanosleep && self->threaded)
     {
@@ -136,6 +137,8 @@ log_source_msg_ack(LogMessage *msg, AckType ack_type)
 {
   AckTracker *ack_tracker = msg->ack_record->tracker;
   ack_tracker_manage_msg_ack(ack_tracker, msg, ack_type);
+  prn();
+
 }
 
 void
@@ -144,6 +147,8 @@ log_source_flow_control_suspend(LogSource *self)
   g_atomic_counter_set(&self->suspended_window_size, g_atomic_counter_get(&self->window_size));
   g_atomic_counter_set(&self->window_size, 0);
   _flow_control_rate_adjust(self);
+  prn();
+
 }
 
 void
@@ -152,7 +157,7 @@ log_source_mangle_hostname(LogSource *self, LogMessage *msg)
   const gchar *resolved_name;
   gsize resolved_name_len;
   const gchar *orig_host;
-  
+  prn();  
   resolved_name = resolve_sockaddr_to_hostname(&resolved_name_len, msg->saddr, &self->options->host_resolve_options);
   log_msg_set_value(msg, LM_V_HOST_FROM, resolved_name, resolved_name_len);
 
@@ -201,7 +206,7 @@ gboolean
 log_source_init(LogPipe *s)
 {
   LogSource *self = (LogSource *) s;
-
+  prn();
   stats_lock();
   stats_register_counter(self->stats_level, self->stats_source | SCS_SOURCE, self->stats_id, self->stats_instance, SC_TYPE_PROCESSED, &self->recvd_messages);
   stats_register_counter(self->stats_level, self->stats_source | SCS_SOURCE, self->stats_id, self->stats_instance, SC_TYPE_STAMP, &self->last_message_seen);
@@ -213,7 +218,7 @@ gboolean
 log_source_deinit(LogPipe *s)
 {
   LogSource *self = (LogSource *) s;
-  
+  prn();
   stats_lock();
   stats_unregister_counter(self->stats_source | SCS_SOURCE, self->stats_id, self->stats_instance, SC_TYPE_PROCESSED, &self->recvd_messages);
   stats_unregister_counter(self->stats_source | SCS_SOURCE, self->stats_id, self->stats_instance, SC_TYPE_STAMP, &self->last_message_seen);
@@ -226,7 +231,7 @@ log_source_post(LogSource *self, LogMessage *msg)
 {
   LogPathOptions path_options = LOG_PATH_OPTIONS_INIT;
   gint old_window_size;
-
+  prn();
   ack_tracker_track_msg(self->ack_tracker, msg);
 
   /* NOTE: we start by enabling flow-control, thus we need an acknowledgement */

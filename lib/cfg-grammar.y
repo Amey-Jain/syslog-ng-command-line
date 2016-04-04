@@ -326,7 +326,6 @@ extern struct _StatsOptions *last_stats_options;
 %token KW_ON_ERROR                    10510
 
 %token KW_RETRIES                     10511
-
 /* END_DECLS */
 
 %code {
@@ -378,7 +377,9 @@ StatsOptions *last_stats_options;
 
 %type   <ptr> expr_stmt
 %type   <ptr> source_stmt
+%type   <ptr> sourceAmey_stmt //data type added to sourceAmey_stmt
 %type   <ptr> dest_stmt
+%type   <ptr> desAmey_stmt  //data type added to desAmey_stmt
 %type   <ptr> filter_stmt
 %type   <ptr> parser_stmt
 %type   <ptr> rewrite_stmt
@@ -393,7 +394,8 @@ StatsOptions *last_stats_options;
 %type   <ptr> source_afinter
 %type   <ptr> source_plugin
 %type   <ptr> source_afinter_params
-
+%type   <ptr> sourceAmey_content //data type added to sourceAmey_content
+%type   <ptr> desAmey_content //data type added to destAmey_content
 %type   <ptr> dest_content
 %type	<ptr> dest_items
 %type	<ptr> dest_item
@@ -471,6 +473,13 @@ expr_stmt
 	| log_stmt
         ;
 
+sourceAmey_stmt
+        : KW_SOURCE string '{' sourceAmey_content '}'
+          {
+            $$ = log_expr_node_new_source($2, $4, &@1);
+            free($2);
+          }
+	;
 source_stmt
         : KW_SOURCE string '{' source_content '}'
           {
@@ -549,6 +558,15 @@ plugin_stmt
           }
 
 /* START_RULES */
+sourceAmey_content
+        :
+          { cfg_lexer_push_context(lexer, LL_CONTEXT_SOURCE, NULL, "sourceAmey"); }
+          source_items
+          { cfg_lexer_pop_context(lexer); }
+          {
+            $$ = log_expr_node_new_junction($2, &@$);
+          }
+        ;
 
 source_content
         :
@@ -650,8 +668,15 @@ dest_content
              $$ = log_expr_node_new_junction($2, &@$);
            }
          ;
-
-
+desAmey_content:
+{
+  cfg_lexer_push_contexy(lexer,LL_CONTEXT_DESTINATION,NULL,"desAmey");}
+dest_items
+{cfg_lexer_pop_context(lexer);}
+{
+  $$ = log_expr_node_new_junction($2,&@$);
+}
+;
 dest_items
         /* all destination drivers are added as an independent branch in a junction*/
         : dest_item semicolons dest_items	{ $$ = log_expr_node_append_tail(log_expr_node_new_pipe($1, &@1), $3); }
@@ -705,8 +730,7 @@ log_junction
         : KW_JUNCTION '{' log_forks '}'         { $$ = log_expr_node_new_junction($3, &@$); }
         ;
 
-log_last_junction
-
+log_last_junction:
         /* this rule matches the last set of embedded log {}
          * statements at the end of the log {} block.
          * It is the final junction and was the only form of creating
@@ -714,7 +738,7 @@ log_last_junction
          *
          * We emulate if the user was writing junction {} explicitly.
          */
-        : log_forks                             { $$ = $1 ? log_expr_node_new_junction($1, &@1) :  NULL; }
+log_forks                             { $$ = $1 ? log_expr_node_new_junction($1, &@1) :  NULL; }
         ;
 
 
@@ -1171,8 +1195,7 @@ file_dir_perm_option
 
 template_option
 	: KW_TS_FORMAT '(' string ')'		{ last_template_options->ts_format = cfg_ts_format_value($3); free($3); }
-	| KW_FRAC_DIGITS '(' LL_NUMBER ')'	{ last_template_options->frac_digits = $3; }
-	| KW_TIME_ZONE '(' string ')'		{ last_template_options->time_zone[LTZ_SEND] = g_strdup($3); free($3); }
+	| KW_FRAC_DIGITS '(' LL_NUMBER ')'	{ last_template_options->frac_digits = $3; }	| KW_TIME_ZONE '(' string ')'		{ last_template_options->time_zone[LTZ_SEND] = g_strdup($3); free($3); }
 	| KW_SEND_TIME_ZONE '(' string ')'      { last_template_options->time_zone[LTZ_SEND] = g_strdup($3); free($3); }
 	| KW_LOCAL_TIME_ZONE '(' string ')'     { last_template_options->time_zone[LTZ_LOCAL] = g_strdup($3); free($3); }
 	| KW_ON_ERROR '(' string ')'
