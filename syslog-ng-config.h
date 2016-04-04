@@ -421,7 +421,7 @@
 
 /* prefix directory */
 #ifndef SYSLOG_NG_PATH_PREFIX
-#define SYSLOG_NG_PATH_PREFIX "/home/amey/syslog-ng"
+#define SYSLOG_NG_PATH_PREFIX "/home/amey/syslog-n"
 #endif
 
 /* SCL directory */

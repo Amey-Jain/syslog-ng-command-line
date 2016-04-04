@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/amey/syslog-ng/lib/syslog-ng'
-relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -I/usr/include -pthread -I./modules/afsmtp -I./modules/afsmtp -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/afsmtp/libafsmtp.la -rpath /home/amey/syslog-ng/lib/syslog-ng modules/afsmtp/modules_afsmtp_libafsmtp_la-afsmtp-grammar.lo modules/afsmtp/modules_afsmtp_libafsmtp_la-afsmtp.lo modules/afsmtp/modules_afsmtp_libafsmtp_la-afsmtp-parser.lo ./lib/libsyslog-ng.la -pthread -L/usr/lib -lesmtp -lssl -lcrypto -ldl @inst_prefix_dir@)"
+libdir='/home/amey/syslog-n/lib/syslog-ng'
+relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -I/usr/include -pthread -I./modules/afsmtp -I./modules/afsmtp -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/afsmtp/libafsmtp.la -rpath /home/amey/syslog-n/lib/syslog-ng modules/afsmtp/modules_afsmtp_libafsmtp_la-afsmtp-grammar.lo modules/afsmtp/modules_afsmtp_libafsmtp_la-afsmtp.lo modules/afsmtp/modules_afsmtp_libafsmtp_la-afsmtp-parser.lo ./lib/libsyslog-ng.la -pthread -L/usr/lib -lesmtp -lssl -lcrypto -ldl @inst_prefix_dir@)"

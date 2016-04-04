@@ -260,7 +260,7 @@
 #define PATH_PIDFILEDIR "${localstatedir}"
 
 /* prefix directory */
-#define PATH_PREFIX "/home/amey/syslog-ng"
+#define PATH_PREFIX "/home/amey/syslog-n"
 
 /* SCL directory */
 #define PATH_SCLDIR "${datadir}/syslog-ng/include/scl"

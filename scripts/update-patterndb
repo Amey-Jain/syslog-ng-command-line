@@ -1,5 +1,5 @@
 #!/bin/sh
-prefix=/home/amey/syslog-ng
+prefix=/home/amey/syslog-n
 exec_prefix=${prefix}
 bindir=${exec_prefix}/bin
 sysconfdir=${prefix}/etc

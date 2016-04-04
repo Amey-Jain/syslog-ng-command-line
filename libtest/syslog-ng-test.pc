@@ -1,5 +1,5 @@
 # Package Information for pkg-config
-prefix=/home/amey/syslog-ng
+prefix=/home/amey/syslog-n
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 pkglibdir=${exec_prefix}/lib/syslog-ng

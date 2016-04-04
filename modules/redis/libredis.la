@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/amey/syslog-ng/lib/syslog-ng'
-relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -D_FILE_OFFSET_BITS=64 -I./modules/redis -I./modules/redis -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/redis/libredis.la -rpath /home/amey/syslog-ng/lib/syslog-ng modules/redis/modules_redis_libredis_la-redis-grammar.lo modules/redis/modules_redis_libredis_la-redis.lo modules/redis/modules_redis_libredis_la-redis-parser.lo -lhiredis ./lib/libsyslog-ng.la @inst_prefix_dir@)"
+libdir='/home/amey/syslog-n/lib/syslog-ng'
+relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -D_FILE_OFFSET_BITS=64 -I./modules/redis -I./modules/redis -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/redis/libredis.la -rpath /home/amey/syslog-n/lib/syslog-ng modules/redis/modules_redis_libredis_la-redis-grammar.lo modules/redis/modules_redis_libredis_la-redis.lo modules/redis/modules_redis_libredis_la-redis-parser.lo -lhiredis ./lib/libsyslog-ng.la @inst_prefix_dir@)"

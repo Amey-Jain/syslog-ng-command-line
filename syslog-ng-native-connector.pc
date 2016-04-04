@@ -1,4 +1,4 @@
-prefix=/home/amey/syslog-ng
+prefix=/home/amey/syslog-n
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 

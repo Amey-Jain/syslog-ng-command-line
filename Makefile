@@ -2509,7 +2509,7 @@ CFLAGS_NOWARN_POINTER_SIGN =  -Wno-pointer-sign
 CORE_DEPS_LIBS =   -lrt -lnsl -Wl,--export-dynamic -pthread -lgmodule-2.0 -lgthread-2.0 -lglib-2.0   -levtlog    -lcap -lpcre    -ldl -Wl,--whole-archive -L$(top_builddir)/lib/ivykis/src -livykis  -Wl,--no-whole-archive
 CPP = gcc -std=gnu99 -E
 CPPFLAGS =  -pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include   -I/usr/include/eventlog       -D_BSD_SOURCE -D__BSD_SOURCE -D__FAVOR_BSD -DHAVE_NET_ETHERNET_H -I/usr/include/dbi -I/usr/include/dbi/dbi   -I$(top_srcdir)/lib/ivykis/src/include -I$(top_builddir)/lib/ivykis/src/include -D_GNU_SOURCE -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
-CURRDATE = Sat, 02 Apr 2016 22:21:31 +0530
+CURRDATE = Mon, 04 Apr 2016 11:15:01 +0530
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -2684,7 +2684,7 @@ moduledir = ${exec_prefix}/lib/syslog-ng
 oldincludedir = /usr/include
 pdfdir = ${docdir}
 pidfiledir = ${localstatedir}
-prefix = /home/amey/syslog-ng
+prefix = /home/amey/syslog-n
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin

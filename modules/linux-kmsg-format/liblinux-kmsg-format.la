@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/amey/syslog-ng/lib/syslog-ng'
-relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/linux-kmsg-format/liblinux-kmsg-format.la -rpath /home/amey/syslog-ng/lib/syslog-ng modules/linux-kmsg-format/modules_linux_kmsg_format_liblinux_kmsg_format_la-linux-kmsg-format.lo modules/linux-kmsg-format/modules_linux_kmsg_format_liblinux_kmsg_format_la-linux-kmsg-format-plugin.lo ./lib/libsyslog-ng.la @inst_prefix_dir@)"
+libdir='/home/amey/syslog-n/lib/syslog-ng'
+relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/linux-kmsg-format/liblinux-kmsg-format.la -rpath /home/amey/syslog-n/lib/syslog-ng modules/linux-kmsg-format/modules_linux_kmsg_format_liblinux_kmsg_format_la-linux-kmsg-format.lo modules/linux-kmsg-format/modules_linux_kmsg_format_liblinux_kmsg_format_la-linux-kmsg-format-plugin.lo ./lib/libsyslog-ng.la @inst_prefix_dir@)"

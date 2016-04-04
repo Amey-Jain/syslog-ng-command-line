@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/amey/syslog-ng/lib/libsyslog-ng.la -L./lib/ivykis/src -lnsl -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 /usr/lib/x86_64-linux-gnu/libevtlog.la -lcap -lpcre -ldl /home/amey/syslog-ng/lib/libivykis.la -L./modules/afmongodb/mongo-c-driver -L./modules/afmongodb/mongo-c-driver/src/libbson /home/amey/syslog-ng/lib/libbson-1.0.la -lm -lrt -lssl -lcrypto'
+dependency_libs=' /home/amey/syslog-n/lib/libsyslog-ng.la -L./lib/ivykis/src -lnsl -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 /usr/lib/x86_64-linux-gnu/libevtlog.la -lcap -lpcre -ldl /home/amey/syslog-ng/lib/libivykis.la -L./modules/afmongodb/mongo-c-driver -L./modules/afmongodb/mongo-c-driver/src/libbson /home/amey/syslog-n/lib/libbson-1.0.la -lm -lrt -lssl -lcrypto'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/amey/syslog-ng/lib/syslog-ng'
+libdir='/home/amey/syslog-n/lib/syslog-ng'

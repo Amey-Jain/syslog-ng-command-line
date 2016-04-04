@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/amey/syslog-ng/lib/syslog-ng'
-relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/pseudofile/libpseudofile.la -rpath /home/amey/syslog-ng/lib/syslog-ng modules/pseudofile/modules_pseudofile_libpseudofile_la-pseudofile.lo modules/pseudofile/modules_pseudofile_libpseudofile_la-pseudofile-grammar.lo modules/pseudofile/modules_pseudofile_libpseudofile_la-pseudofile-parser.lo modules/pseudofile/modules_pseudofile_libpseudofile_la-pseudofile-plugin.lo ./lib/libsyslog-ng.la @inst_prefix_dir@)"
+libdir='/home/amey/syslog-n/lib/syslog-ng'
+relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/pseudofile/libpseudofile.la -rpath /home/amey/syslog-n/lib/syslog-ng modules/pseudofile/modules_pseudofile_libpseudofile_la-pseudofile.lo modules/pseudofile/modules_pseudofile_libpseudofile_la-pseudofile-grammar.lo modules/pseudofile/modules_pseudofile_libpseudofile_la-pseudofile-parser.lo modules/pseudofile/modules_pseudofile_libpseudofile_la-pseudofile-plugin.lo ./lib/libsyslog-ng.la @inst_prefix_dir@)"

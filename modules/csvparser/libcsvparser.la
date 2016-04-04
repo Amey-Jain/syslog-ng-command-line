@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/amey/syslog-ng/lib/syslog-ng'
-relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/csvparser/libcsvparser.la -rpath /home/amey/syslog-ng/lib/syslog-ng modules/csvparser/modules_csvparser_libcsvparser_la-csvparser.lo modules/csvparser/modules_csvparser_libcsvparser_la-csv-scanner.lo modules/csvparser/modules_csvparser_libcsvparser_la-csvparser-grammar.lo modules/csvparser/modules_csvparser_libcsvparser_la-csvparser-parser.lo modules/csvparser/modules_csvparser_libcsvparser_la-csvparser-plugin.lo ./lib/libsyslog-ng.la @inst_prefix_dir@)"
+libdir='/home/amey/syslog-n/lib/syslog-ng'
+relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/csvparser/libcsvparser.la -rpath /home/amey/syslog-n/lib/syslog-ng modules/csvparser/modules_csvparser_libcsvparser_la-csvparser.lo modules/csvparser/modules_csvparser_libcsvparser_la-csv-scanner.lo modules/csvparser/modules_csvparser_libcsvparser_la-csvparser-grammar.lo modules/csvparser/modules_csvparser_libcsvparser_la-csvparser-parser.lo modules/csvparser/modules_csvparser_libcsvparser_la-csvparser-plugin.lo ./lib/libsyslog-ng.la @inst_prefix_dir@)"

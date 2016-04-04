@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/amey/syslog-ng/lib/libsyslog-ng.la -L./lib/ivykis/src -lrt -lnsl -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 /usr/lib/x86_64-linux-gnu/libevtlog.la -lcap -lpcre -ldl /home/amey/syslog-ng/lib/libivykis.la -lssl -lcrypto -ljson-c'
+dependency_libs=' /home/amey/syslog-n/lib/libsyslog-ng.la -L./lib/ivykis/src -lrt -lnsl -lgmodule-2.0 -lgthread-2.0 -lglib-2.0 /usr/lib/x86_64-linux-gnu/libevtlog.la -lcap -lpcre -ldl /home/amey/syslog-ng/lib/libivykis.la -lssl -lcrypto -ljson-c'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/amey/syslog-ng/lib/syslog-ng'
+libdir='/home/amey/syslog-n/lib/syslog-ng'

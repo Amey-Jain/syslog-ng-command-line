@@ -38,5 +38,5 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/amey/syslog-ng/lib/syslog-ng'
-relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/afuser/libafuser.la -rpath /home/amey/syslog-ng/lib/syslog-ng modules/afuser/modules_afuser_libafuser_la-afuser.lo modules/afuser/modules_afuser_libafuser_la-afuser-grammar.lo modules/afuser/modules_afuser_libafuser_la-afuser-parser.lo modules/afuser/modules_afuser_libafuser_la-afuser-plugin.lo ./lib/libsyslog-ng.la @inst_prefix_dir@)"
+libdir='/home/amey/syslog-n/lib/syslog-ng'
+relink_command="(cd /home/amey/git/syslog-ng; /bin/bash \"/home/amey/git/syslog-ng/libtool\"  --silent --tag CC --mode=relink gcc -std=gnu99 -g -O2 -Wall -Wshadow -pthread -avoid-version -module -no-undefined -o modules/afuser/libafuser.la -rpath /home/amey/syslog-n/lib/syslog-ng modules/afuser/modules_afuser_libafuser_la-afuser.lo modules/afuser/modules_afuser_libafuser_la-afuser-grammar.lo modules/afuser/modules_afuser_libafuser_la-afuser-parser.lo modules/afuser/modules_afuser_libafuser_la-afuser-plugin.lo ./lib/libsyslog-ng.la @inst_prefix_dir@)"
